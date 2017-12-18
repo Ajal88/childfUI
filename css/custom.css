@@ -1,6 +1,11 @@
 @font-face {
   font-family: 'XBZar';
   src: url(https://fontlibrary.org/face/xb-zar); }
+body, head {
+  width: 100%;
+  direction: rtl;
+  font-family: 'XBZar', serif; }
+
 .brand-logo {
   width: 4rem;
   height: 4rem;
