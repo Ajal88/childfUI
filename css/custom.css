@@ -1,6 +1,10 @@
+@font-face {
+  font-family: 'XBZar';
+  src: url(https://fontlibrary.org/face/xb-zar); }
 .brand-logo {
-  width: 35px;
-  height: 35px;
-  margin-top: 8px; }
+  width: 4rem;
+  height: 4rem;
+  margin-top: 0.5rem;
+  margin-right: 1rem; }
 
 /*# sourceMappingURL=custom.css.map */
