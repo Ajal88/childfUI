@@ -18,4 +18,13 @@ body, head {
   margin-top: 0.5rem;
   margin-left: 2rem; }
 
+.sidebar {
+  margin-top: -2rem;
+  background: #e6e6e6;
+  width: 20rem;
+  height: 75rem; }
+
+.text-sidebar {
+  color: #0f0f0f; }
+
 /*# sourceMappingURL=custom.css.map */
