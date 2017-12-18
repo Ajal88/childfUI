@@ -42,24 +42,49 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 .heading-text {
   font-size: 1rem; }
 
+#donate_btn {
+  white-space: normal;
+  width: 70px;
+  font-size: 0.5rem; }
+
 @media (min-width: 544px) {
   .heading-text {
-    font-size: 1.5rem; } }
+    font-size: 1.5rem; }
+
+  #donate_btn {
+    width: 110px;
+    font-size: 1rem; } }
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {
   .heading-text {
-    font-size: 2rem; } }
+    font-size: 2rem; }
+
+  #donate_btn {
+    width: 140px;
+    font-size: 1.3rem; } }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .heading-text {
-    font-size: 3rem; } }
+    font-size: 3rem; }
+
+  #donate_btn {
+    width: 160px;
+    font-size: 1.5rem; } }
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .heading-text {
-    font-size: 4rem; } }
+    font-size: 4rem; }
+
+  #donate_btn {
+    width: 180px;
+    font-size: 2rem; } }
 /* Set width to make card deck cards 100% width */
 @media (min-width: 950px) and (max-width: 1100px) {
   .heading-text {
-    font-size: 2.75rem; } }
+    font-size: 2.75rem; }
+
+  #donate_btn {
+    width: 180px;
+    font-size: 2rem; } }
 
 /*# sourceMappingURL=index.css.map */
