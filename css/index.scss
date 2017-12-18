@@ -3,13 +3,28 @@
   src: url(https://fontlibrary.org/face/xb-zar);
 }
 
-.all {
+body, head {
   direction: rtl;
   font-family: 'XBZar', serif;
 }
 
+.brand-logo {
+  width: 4rem;
+  height: 4rem;
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+}
+
+#top_menu {
+  position: fixed;
+  z-index: 700;
+  width: 100%;
+}
+
 #img_fade {
-  filter: opacity(50%);
+  filter: opacity(70%);
+  max-width: 100%;
+  max-height: 100%;
 }
 
 #intro {
@@ -36,7 +51,6 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 .heading-text {
   font-size: 1rem;
 }
-
 
 @media (min-width: 544px) {
   .heading-text {
@@ -67,7 +81,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 
 /* Set width to make card deck cards 100% width */
 @media (min-width: 950px) and (max-width: 1100px) {
- .heading-text {
+  .heading-text {
     font-size: 2.75rem;
   }
 }
