@@ -5,6 +5,11 @@ body, head {
   direction: rtl;
   font-family: 'XBZar', serif; }
 
+body {
+  background-image: url("../img/back2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
 .brand-logo {
   width: 4rem;
   height: 4rem;
@@ -57,12 +62,12 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   direction: rtl;
   font-family: 'XBZar', serif; }
 
-#company-info {
-  background: linear-gradient(rgba(63, 180, 79, 0.86), rgba(250, 235, 72, 0.98)); }
-
-#care {
-  padding: 2%;
-  margin: auto; }
+.care {
+  background: #cccccc;
+  /* Fallback for older browsers without RGBA-support */
+  background: rgba(204, 204, 204, 0.5);
+  position: center;
+  width: 95%; }
 
 .white-text {
   color: #22390d;
@@ -126,4 +131,4 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     width: 180px;
     font-size: 1.5rem; } }
 
-/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=info.css.map */

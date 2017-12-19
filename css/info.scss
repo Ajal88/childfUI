@@ -22,6 +22,12 @@ body, head {
   font-family: 'XBZar', serif;
 }
 
+body {
+  background-image: url('../img/back2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 .brand-logo {
   width: 4rem;
   height: 4rem;
@@ -85,14 +91,16 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 }
 
 #company-info {
-  background: linear-gradient($cucumber-green, $baloon-yello);
-  //background-image: url('../img/back_color.svg');
+  //background: linear-gradient($cucumber-green, $baloon-yello);
+
   //background: $cucumber-green;
 }
 
-#care {
-  padding: 2%;
-  margin: auto;
+.care {
+  background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+  background: rgba(204, 204, 204, 0.5);
+  position: center;
+  width: 95%;
 }
 
 .white-text {
