@@ -45,7 +45,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 #donate_btn {
   white-space: normal;
   width: 70px;
-  font-size: 0.5rem; }
+  font-size: 0.8rem; }
 
 .btn-space {
   margin-right: 5px;
@@ -65,7 +65,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   font-weight: bold; }
 
 .persi-text {
-  font-size: 1.7rem; }
+  font-size: 1rem; }
 
 @media (min-width: 544px) {
   .heading-text {
@@ -76,7 +76,10 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 
   #donate_btn {
     width: 110px;
-    font-size: 1rem; } }
+    font-size: 1rem; }
+
+  .persi-text {
+    font-size: 1.1rem; } }
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {
   .heading-text, .btn-space {
@@ -87,6 +90,9 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 
   #donate_btn {
     width: 140px;
+    font-size: 1.3rem; }
+
+  .persi-text {
     font-size: 1.3rem; } }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
@@ -98,6 +104,9 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 
   #donate_btn {
     width: 160px;
+    font-size: 1.5rem; }
+
+  .persi-text {
     font-size: 1.5rem; } }
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
@@ -109,7 +118,10 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 
   #donate_btn {
     width: 180px;
-    font-size: 2rem; } }
+    font-size: 2rem; }
+
+  .persi-text {
+    font-size: 1.7rem; } }
 /* Set width to make card deck cards 100% width */
 @media (min-width: 950px) and (max-width: 1100px) {
   .heading-text {
@@ -120,6 +132,9 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 
   #donate_btn {
     width: 180px;
-    font-size: 1.5rem; } }
+    font-size: 1.5rem; }
+
+  .persi-text {
+    font-size: 1.7rem; } }
 
 /*# sourceMappingURL=index.css.map */
