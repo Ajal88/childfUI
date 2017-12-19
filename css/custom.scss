@@ -33,10 +33,13 @@ body, head {
   background: rgb(230, 230, 230);
   margin-bottom: 1rem;
   height: 100vh;
+  position: fixed;
+  top: 7rem;
 }
 @media screen and (max-width: 990px) {
  .sidebar {
    height: 100%;
+   position: relative;
  }
 }
 .text-sidebar {
@@ -45,4 +48,13 @@ body, head {
 
 .sidebar-link {
   border-bottom: #000000 10px;
+}
+
+.big-notif-top-offset {
+  margin-top: 8rem;
+}
+
+.jumbotron {
+  height: 100% !important;
+  padding: 2rem !important;
 }
