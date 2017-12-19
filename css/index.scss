@@ -15,7 +15,7 @@ $baloon-blue: rgba(31, 123, 209, 0.98);
 $sky-blue: rgba(167, 218, 241, 0.98);
 $baloon-yello: rgba(250, 235, 72, 0.98);
 $cucumber-green: rgba(63, 180, 79, 0.86);
-
+$bonyad: #22390d;
 
 body, head {
   direction: rtl;
@@ -81,11 +81,19 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 
 
 #company-info {
-  background: $cucumber-green;
+  background: linear-gradient($cucumber-green, $baloon-yello);
+  //background-image: url('../img/back_color.svg');
+  //background: $cucumber-green;
+}
+
+#care {
+  padding: 2%;
+  margin: auto;
 }
 
 .white-text {
-  color: #ffffff;
+  //color: #ffffff;
+  color: $bonyad;
   font-weight: bold;
 }
 

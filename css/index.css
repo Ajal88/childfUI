@@ -54,10 +54,14 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   font-family: 'XBZar', serif; }
 
 #company-info {
-  background: rgba(63, 180, 79, 0.86); }
+  background: linear-gradient(rgba(63, 180, 79, 0.86), rgba(250, 235, 72, 0.98)); }
+
+#care {
+  padding: 2%;
+  margin: auto; }
 
 .white-text {
-  color: #ffffff;
+  color: #22390d;
   font-weight: bold; }
 
 .persi-text {
