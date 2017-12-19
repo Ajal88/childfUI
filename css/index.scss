@@ -89,6 +89,10 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   font-weight: bold;
 }
 
+.persi-text {
+  font-size: 1.5rem;
+}
+
 @media (min-width: 544px) {
   .heading-text {
     font-size: 1.5rem;
