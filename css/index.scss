@@ -7,7 +7,7 @@ $grass-green: rgba(193, 235, 86, 0.64);
 $baloon-pink: rgba(230, 36, 103, 0.98);
 $bts-green: rgba(95, 183, 96, 0.98);
 $bts-yellow: rgba(239, 148, 69, 0.85);
-$chf-red: rgba(113, 13, 42, 0.98);
+$chf-red: rgba(113, 41, 41, 0.98);
 $chf-logo: rgba(181, 20, 83, 0.98);
 $bls-green: rgba(245, 238, 159, 0.98);
 $logo-green: rgb(132, 177, 63);
@@ -106,7 +106,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 }
 
 #call {
-  background: linear-gradient($chf-logo, $chf-red);
+  background: linear-gradient(#ffa80a, $chf-logo);
 }
 
 .white-text {
