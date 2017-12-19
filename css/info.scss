@@ -99,9 +99,8 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 .care {
   background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
   background: rgba(204, 204, 204, 0.5);
-  position: center;
   width: 95%;
-  margin-left: 2.5%;
+  margin-right: 2.5%;
 }
 
 .white-text {
