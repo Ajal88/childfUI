@@ -72,7 +72,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   font-size: 1.7rem; }
 
 #call {
-  background: linear-gradient(#ffa80a, rgba(181, 20, 83, 0.98)); }
+  background: rgba(181, 20, 83, 0.98); }
 
 .white-text {
   color: #ffffff;
