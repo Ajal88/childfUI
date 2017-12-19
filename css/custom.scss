@@ -51,7 +51,7 @@ body, head {
   }
 }
 
-@media screen and (min-width: 991px){
+@media screen and (min-width: 991px) {
   .dash-row {
     margin-right: 24rem;
     margin-top: 6rem;
@@ -80,4 +80,8 @@ body, head {
 
 .text-submenu {
   margin-right: 3rem;
+}
+
+.btn {
+  font-family: 'XBZar', serif;
 }
