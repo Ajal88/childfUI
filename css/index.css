@@ -71,6 +71,18 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 .persi-text {
   font-size: 1.7rem; }
 
+#call {
+  background: rgba(181, 20, 83, 0.98); }
+
+.white-text {
+  color: #ffffff;
+  font-weight: bold; }
+
+hr {
+  border-width: .5px;
+  border-style: inset;
+  border-color: #84b13f; }
+
 @media (min-width: 544px) {
   .heading-text {
     font-size: 1.5rem; }
