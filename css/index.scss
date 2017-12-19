@@ -84,6 +84,10 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   background: $cucumber-green;
 }
 
+.white-text {
+  color: #ffffff;
+  font-weight: bold;
+}
 
 @media (min-width: 544px) {
   .heading-text {

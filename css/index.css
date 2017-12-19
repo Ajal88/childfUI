@@ -56,6 +56,10 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 #company-info {
   background: rgba(63, 180, 79, 0.86); }
 
+.white-text {
+  color: #ffffff;
+  font-weight: bold; }
+
 @media (min-width: 544px) {
   .heading-text {
     font-size: 1.5rem; }
