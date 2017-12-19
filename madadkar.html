@@ -62,19 +62,30 @@
 <!-- sidebar -->
 <div class="col-xs-12 col-md-2 sidebar">
     <ul class="nav">
-        <li><a class="text-sidebar" href="#"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span><span class="glyphicon glyphicon-user" aria-hidden="true"></span> ثبت‌نام مددجوی جدید
-             </a></li>
+        <li><a class="text-sidebar" href="#"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span><span
+                class="glyphicon glyphicon-user" aria-hidden="true"></span> ثبت‌نام مددجوی جدید
+        </a></li>
         <li class="active sidebar-link"><a class="text-sidebar" href="#"><span class="glyphicon glyphicon-usd"
                                                                                aria-hidden="true"></span> پرداخت
             هزینه‌ها</a></li>
         <li><a class="text-sidebar" href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> صندوق
             پیام‌ها <span class="badge">۸</span></a></li>
-        <li><a class="text-sidebar" href="#"><span class="glyphicon glyphicon-bell" aria-hidden="true"></span> مشاهده‌ی اعلان‌ها
-             <span class="badge">۷</span></a></li>
-        <li><a class="text-sidebar" href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> مشاهده‌ی
-            مددجویان </a></li>
+        <li><a class="text-sidebar" href="#"><span class="glyphicon glyphicon-bell" aria-hidden="true"></span> مشاهده‌ی
+            اعلان‌ها
+            <span class="badge">۷</span></a></li>
+        <li><!-- Link with dropdown items -->
+            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="text-sidebar"><span
+                    class="glyphicon glyphicon-user" aria-hidden="true"></span> مشاهده‌ی مددجویان <span
+                    class="caret"></span></a>
+            <ul class="collapse list-unstyled nav" id="homeSubmenu">
+                <li><a href="#" class="text-sidebar text-submenu"><span class="glyphicon glyphicon-grain"
+                                                                        aria-hidden="true"></span> همه‌ی مددجویان</a></li>
+                <li><a href="#" class="text-sidebar text-submenu"><span class="glyphicon glyphicon-leaf"
+                                                                        aria-hidden="true"></span> مددجویان تحت‌پوشش</a></li>
+            </ul>
+        </li>
         <li><a class="text-sidebar" href="#"><span class="glyphicon glyphicon-save-file" aria-hidden="true"></span>
-             دریافت گزارش مالی</a></li>
+            دریافت گزارش مالی</a></li>
     </ul>
 </div>
 
