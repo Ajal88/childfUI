@@ -4,7 +4,7 @@ $(document).ready(function () {
 
         var target = this.hash;
         var $target = $(target);
-        
+
         $('html, body').stop().animate({
             'scrollTop': $target.offset().top
         }, 900, 'swing', function () {
@@ -26,5 +26,14 @@ $(document).ready(function () {
         });
         $(".navbar-collapse").collapse('hide');
     });
+
+    $('#sgup').on('click', function (e) {
+        window.location = 'signup.html';
+    });
+
+    $('#help').on('click', function (e) {
+       window.location = 'login.html';
+    });
+
 });
 

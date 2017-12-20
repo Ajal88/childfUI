@@ -1,0 +1,14 @@
+#img_fade {
+  filter: opacity(50%); }
+
+#img_on_text {
+  width: 100%; }
+
+.panel-default {
+  opacity: 0.9;
+  margin-top: 20px; }
+
+.form-group.last {
+  margin-bottom: 0; }
+
+/*# sourceMappingURL=register.css.map */
