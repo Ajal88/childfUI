@@ -59,9 +59,10 @@
 </nav>
 
 <!-- sidebar -->
-<div class="col-xs-12 col-md-2 sidebar">
+<div class="col-xs-12 col-sm-12 col-md-2 sidebar">
     <ul class="nav">
-        <li class="green_active"><a class="text-sidebar" href="#"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span><span
+        <li class="green_active"><a class="text-sidebar" href="#"><span class="glyphicon glyphicon-plus"
+                                                                        aria-hidden="true"></span><span
                 class="glyphicon glyphicon-user" aria-hidden="true"></span> ثبت‌نام مددجوی جدید
         </a></li>
         <li class="active sidebar-link"><a class="text-sidebar" href="#"><span class="glyphicon glyphicon-usd"
@@ -98,70 +99,193 @@
 </div>
 
 <!-- signup panel -->
-<div class="row" id="intro">
-    <div class="caption" id="img_on_text">
-        <div class="row">
-            <div class="col-md-4 col-md-offset-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <span class="glyphicon glyphicon-lock"></span> ثبت‌نام مددجو
-                    </div>
-                    <div class="panel-body">
-                        <form class="form-horizontal" role="form">
-                            <div class="form-group">
-                                <label for="firstname" class="col-sm-3 control-label">
-                                    نام</label>
-                                <div class="col-sm-9">
-                                    <input type="text" class="form-control" id="firstname" placeholder="Firstname"
-                                           required>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label for="lastname" class="col-sm-3 control-label">
-                                    نام خانوادگی</label>
-                                <div class="col-sm-9">
-                                    <input type="email" class="form-control" id="lastname" placeholder="Lastname"
-                                           required>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label for="icode" class="col-sm-3 control-label">
-                                    کدملی</label>
-                                <div class="col-sm-9">
-                                    <input type="text" class="form-control" id="icode" placeholder="National Code"
-                                           required>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label for="inputEmail3" class="col-sm-3 control-label">
-                                    ایمیل</label>
-                                <div class="col-sm-9">
-                                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email"
-                                           required>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label for="inputPassword3" class="col-sm-3 control-label">
-                                    گذرواژه</label>
-                                <div class="col-sm-9">
-                                    <input type="password" class="form-control" id="inputPassword3"
-                                           placeholder="Password" required>
-                                </div>
-                            </div>
-                            <div class="form-group last">
-                                <div class="col-sm-offset-3 col-sm-9">
-                                    <button type="submit" class="btn btn-success btn-sm">
-                                        ثبت‌نام
-                                    </button>
-                                </div>
-                            </div>
-                        </form>
+<div class="col-md-9 col-md-offset-2 col-sm-9 col-sm-offset-1 col-xs-9 col-xs-offset-1 sign-panel">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <span class="glyphicon glyphicon-lock"></span> ثبت‌نام مددجو
+        </div>
+        <div class="panel-body">
+            <form class="form-horizontal" role="form">
+                <div class="form-group">
+                    <label for="firstname" class="col-sm-3 control-label">
+                        نام</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="firstname" placeholder="Firstname"
+                               required>
                     </div>
                 </div>
-            </div>
+                <div class="form-group">
+                    <label for="lastname" class="col-sm-3 control-label">
+                        نام خانوادگی</label>
+                    <div class="col-sm-9">
+                        <input type="email" class="form-control" id="lastname" placeholder="Lastname"
+                               required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="icode" class="col-sm-3 control-label">
+                        کدملی</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="icode" placeholder="National Code"
+                               required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="bank-account" class="col-sm-3 control-label">
+                        شماره حساب بانکی</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="bank-account" placeholder="Bank Account"
+                               required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="father-name" class="col-sm-3 control-label">
+                        نام پدر</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="father-name" placeholder="Father Name"
+                               required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="city" class="col-sm-3 control-label">
+                        شهر</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="city" placeholder="City"
+                               required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="birth-date" class="col-sm-3 control-label">
+                        تاریخ‌تولد</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="birth-date" placeholder="Birth Date"
+                               required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="grade" class="col-sm-3 control-label">
+                        مقطع‌تحصیلی</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="grade" placeholder="Grade"
+                               required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="sex" class="col-sm-3 control-label">
+                        جنسیت</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="sex" placeholder="Sex"
+                               required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="address" class="col-sm-3 control-label">
+                        آدرس محل سکونت</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="address" placeholder="Address"
+                               required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="state" class="col-sm-3 control-label">
+                        وضعیت کلی مددجو</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="state" placeholder="State"
+                               required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="health" class="col-sm-3 control-label">
+                        وضعیت سلامت جسمی و روحی</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="health" placeholder="Health"
+                               required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="disease" class="col-sm-3 control-label">
+                        نوع بیماری جسمی</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="disease" placeholder="Disease"
+                               required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="education" class="col-sm-3 control-label">
+                        وضعیت تحصیل</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="education" placeholder="Education"
+                               required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="need" class="col-sm-3 control-label">
+                        نیاز</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="need" placeholder="Need"
+                               required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="need-type" class="col-sm-3 control-label">
+                        نوع نیاز</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="need-type" placeholder="Need Type"
+                               required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="need-cost" class="col-sm-3 control-label">
+                        هزینه‌ی نیاز</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="need-cost" placeholder="Need Cost"
+                               required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="dec-madadjo" class="col-sm-3 control-label">
+                        توضیحات مختصری از مددجو</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="dec-madadjo" placeholder="Brief Description"
+                               required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="recome" class="col-sm-3 control-label">
+                        معرف</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="recome" placeholder="Recommended By ..."
+                               required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputPassword3" class="col-sm-3 control-label">
+                        گذرواژه</label>
+                    <div class="col-sm-9">
+                        <input type="password" class="form-control" id="inputPassword3"
+                               placeholder="Password" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="reinputPassword3" class="col-sm-3 control-label">
+                        تکرار گذرواژه</label>
+                    <div class="col-sm-9">
+                        <input type="password" class="form-control" id="reinputPassword3"
+                               placeholder="Password" required>
+                    </div>
+                </div>
+                <div class="form-group last">
+                    <div class="col-sm-offset-3 col-sm-9">
+                        <button type="submit" class="btn btn-success btn-sm">
+                            ثبت‌نام
+                        </button>
+                    </div>
+                </div>
+            </form>
         </div>
     </div>
 </div>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/butn.js"></script>
