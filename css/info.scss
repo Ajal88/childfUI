@@ -20,13 +20,13 @@ $bonyad: #22390d;
 body, head {
   direction: rtl;
   font-family: 'XBZar', serif;
-
 }
 
 #main_body {
   background-image: url('../img/back2.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
+  width: 100%;
 }
 
 .brand-logo {
@@ -89,12 +89,6 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   font-size: 1rem;
   direction: rtl;
   font-family: 'XBZar', serif;
-}
-
-#company-info {
-  //background: linear-gradient($cucumber-green, $baloon-yello);
-
-  //background: $cucumber-green;
 }
 
 .care {
