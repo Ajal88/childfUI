@@ -17,7 +17,13 @@ $(document).ready(function () {
         window.location = 'index.html#list-holder'
     });
 
+
+    showSlides(slideIndex);
+
+
 });
+
+var slideIndex = 1;
 
 function openModal() {
     document.getElementById('myModal').style.display = "block";
@@ -26,9 +32,6 @@ function openModal() {
 function closeModal() {
     document.getElementById('myModal').style.display = "none";
 }
-
-var slideIndex = 1;
-showSlides(slideIndex);
 
 function plusSlides(n) {
     showSlides(slideIndex += n);
