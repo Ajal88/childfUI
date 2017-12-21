@@ -1,4 +1,16 @@
 $(document).ready(function () {
+    $('#support').on('click', function (e) {
+        window.location = 'index.html#list-holder';
+    });
+
+    $('#sgup').on('click', function (e) {
+        window.location = 'signup.html';
+    });
+
+    $('#help').on('click', function (e) {
+       window.location = 'login.html';
+    });
+
     $('a[href^="#"]').on('click', function (e) {
         e.preventDefault();
 
@@ -13,13 +25,7 @@ $(document).ready(function () {
         $(".navbar-collapse").collapse('hide');
     });
 
-    $('#support').on('click', function (e) {
-        window.location = 'index.html#list-holder'
-    });
-
-
     showSlides(slideIndex);
-
 
 });
 
