@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fa">
+<html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/custom.css"/>
     <link rel="stylesheet" href="css/normalize.css"/>
     <link rel="icon" href="img/logo.png">
-    <title>مشاهده‌ی همیاران</title>
+    <title>ارسال پیام</title>
 </head>
 <body>
 
@@ -35,7 +35,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li><a href="index.html">خانه</a></li>
-                <li class="active"><a href="hamyar.html">داشبورد</a></li>
+                <li class="active"><a href="madadkar.html">داشبورد</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li>
@@ -45,11 +45,11 @@
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                        aria-expanded="false">تنظیمات<span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">پروفایل</a></li>
-                        <li><a href="#">تغییر رمز عبور</a></li>
+                        <li><a href="profile-madadkar.html">پروفایل</a></li>
+                        <li><a href="profile-madadkar.html">تغییر رمز عبور</a></li>
                         <li><a href="notification.html">اعلان‌ها</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="#">درخواست تغییر مشخصات کاربری</a></li>
+                        <li><a href="profile-madadkar.html">درخواست تغییر مشخصات کاربری</a></li>
                     </ul>
                 </li>
                 <li><a href="#">سلام <b>کاربر!</b></a></li>
@@ -59,10 +59,13 @@
     </div><!-- /.container-fluid -->
 </nav>
 
-
 <!-- sidebar -->
 <div class="col-xs-12 col-md-2 sidebar">
     <ul class="nav">
+        <li><a class="text-sidebar" href="signup_madadjo.html"><span class="glyphicon glyphicon-plus"
+                                                                     aria-hidden="true"></span><span
+                class="glyphicon glyphicon-user" aria-hidden="true"></span> ثبت‌نام مددجوی جدید
+        </a></li>
         <li><a class="text-sidebar" href="inbox.html"><span class="glyphicon glyphicon-envelope"
                                                             aria-hidden="true"></span> صندوق
             پیام‌ها <span class="badge">۸</span></a></li>
@@ -71,52 +74,54 @@
             اعلان‌ها
             <span class="badge">۷</span></a></li>
         <li><!-- Link with dropdown items -->
-            <a href="madadkar_info.html" class="text-sidebar"><span
-                    class="glyphicon glyphicon-user" aria-hidden="true"></span> مشاهده‌ی مددکار</a>
+            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="text-sidebar"><span
+                    class="glyphicon glyphicon-user" aria-hidden="true"></span> مشاهده‌ی مددجویان <span
+                    class="caret"></span></a>
+            <ul class="collapse list-unstyled nav" id="homeSubmenu">
+                <li><a href="madadjo_list.html" class="text-sidebar text-submenu"><span
+                        class="glyphicon glyphicon-grain"
+                        aria-hidden="true"></span> همه‌ی مددجویان</a></li>
+                <li><a href="madadjo_list.html" class="text-sidebar text-submenu"><span
+                        class="glyphicon glyphicon-star-empty"
+                        aria-hidden="true"></span> مددجویان تحت‌مددکاری</a></li>
+                <li><a href="madadjo_list.html" class="text-sidebar text-submenu"><span class="glyphicon glyphicon-leaf"
+                                                                                        aria-hidden="true"></span>
+                    مددجویان تحت‌پوشش</a></li>
+            </ul>
         </li>
         <li class="green_active"><!-- Link with dropdown items -->
-            <a href="hamyar_list.html" class="text-sidebar"><span
-                    class="glyphicon glyphicon-user" aria-hidden="true"></span> مشاهده‌ی همیاران</a>
-        </li>
-        <li><!-- Link with dropdown items -->
             <a href="#homeSubmenu3" data-toggle="collapse" aria-expanded="false" class="text-sidebar"><span
                     class="glyphicon glyphicon-envelope" aria-hidden="true"></span> ارسال پیام <span
                     class="caret"></span></a>
             <ul class="collapse list-unstyled nav" id="homeSubmenu3">
-                <li><a href="madadkar_info.html" class="text-sidebar text-submenu"><span
+                <li><a href="madadjo_list.html" class="text-sidebar text-submenu"><span
                         class="glyphicon glyphicon-grain"
-                        aria-hidden="true"></span> مددکار</a></li>
-                <li><a href="hamyar_list.html" class="text-sidebar text-submenu"><span class="glyphicon glyphicon-leaf"
+                        aria-hidden="true"></span> مددجو</a></li>
+                <li><a href="hamyar_list.html" class="text-sidebar text-submenu"><span class="glyphicon glyphicon-tree-deciduous"
                                                                                         aria-hidden="true"></span>
                     همیار</a></li>
             </ul>
         </li>
-        <li><a class="text-sidebar" href="f_report.html"><span class="glyphicon glyphicon-save-file"
-                                                               aria-hidden="true"></span>
+        <li><a class="text-sidebar" href="f_report.html"><span class="glyphicon glyphicon-save-file" aria-hidden="true"></span>
             دریافت گزارش مالی</a></li>
-        <li><a class="text-sidebar" href="madadkar_report.html"><span class="glyphicon glyphicon-save-file"
-                                                                      aria-hidden="true"></span>
-            درخواست تغییر مددکار</a></li>
     </ul>
 </div>
 
-<!-- list -->
-<div class="row col-xs-12 col-md-9 col-sm-10 col-md-offset-2">
-    <div class="col-md-3 col-sm-4 col-xs-12">
-        <div class="thumbnail small-card">
-            <img src="img/logo.jpg" alt="عکس پروفایل">
-            <div class="caption">
-                <h3>همیار اول</h3>
-                <p>میزان پرداختی به شما تا کنون: ۴،۰۰۰،۰۰۰ تومان</p>
-                <br>
-                <p><a href="send_message.html" class="btn btn-default btn-sm btn-success" role="button">ارسال نامه تشکر</a>
-            </div>
-        </div>
-    </div>
+
+<div class="col-md-offset-3 col-xs-offset-1 col-xs-10 col-md-8 jumbotron big-notif-top-offset">
+    <h4><b>پیام جدید</b></h4>
+    <label for="summary">موضوع: <span class="tab"></span></label>
+    <input type="text" id="summary" name="موضوع">
+    <br>
+    <br>
+    <label for="p-text">متن: <span class="tab"></span></label>
+    <textarea class="form-control" id="p-text" rows="3"></textarea>
+    <br>
+    <p><a class="btn btn-info" href="#" role="button">ارسال پیام</a></p>
 </div>
 
-</body>
 
+</body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/butn.js"></script>
